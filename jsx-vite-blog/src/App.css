@@ -1,0 +1,168 @@
+body
+{
+    font-family:'Courier New', Courier, monospace ;
+    margin: 0px;
+
+    background-color: rgb(240,240,240);
+}
+
+
+
+header
+{
+  
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    
+    height: 160px;
+
+    background-color: rgb(220,220,220);
+
+    margin-bottom: 30px;
+
+
+
+}
+
+.title
+{
+
+    margin: 50px 120px;
+
+}
+
+.my-name
+{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.welcome
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+main
+{
+    display: grid;
+    grid-template-columns: 268px 1fr 268px;
+
+    height: 395px;
+}
+
+.about-me
+{
+    font-weight: 550;
+
+    margin-bottom: 15px;
+}
+
+.interests-container
+{
+    display: grid;
+    grid-template-columns: 1fr 15px 1fr;
+
+}
+
+.software-container
+{
+    background-color: rgb(235, 235, 235);
+
+
+}
+
+.software-title
+{
+    
+    height: 50px;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    
+    text-align: center;
+
+    background-color: rgb(230, 230, 230);
+}
+
+.software
+{
+    font-size: 20px;
+
+    font-weight: 600;
+}
+
+
+
+.math-container
+{
+    background-color: rgb(235, 235, 235);
+}
+
+.math-title
+{
+    height: 50px;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    
+    text-align: center;
+
+    background-color: rgb(230, 230, 230);
+}
+
+.math
+{
+    font-size: 20px;
+
+    font-weight: 600;
+}
+
+li
+{
+    margin-top: 40px;
+}
+
+
+footer
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    background-color: rgb(220, 220, 220);
+    
+    height: 80px;
+
+    margin-top: 30px;
+
+   
+}
+
+.contact-info
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    height: 80px;
+
+    align-items:center ;
+
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
